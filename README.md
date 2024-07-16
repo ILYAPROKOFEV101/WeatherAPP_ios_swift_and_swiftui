@@ -1,49 +1,7 @@
 Это моё первое приложение на Swift и SwiftUI. Приложение простое, я делаю обычные GET-запросы на сервер и получаю данные о погоде в формате:
-{
-  "coord": {
-    "lon": 30.2642,
-    "lat": 59.8944
-  },
-  "weather": [
-    {
-      "id": 802,
-      "main": "Clouds",
-      "description": "scattered clouds",
-      "icon": "03d"
-    }
-  ],
-  "base": "stations",
-  "main": {
-    "temp": 297.62,
-    "feels_like": 297.61,
-    "temp_min": 297.62,
-    "temp_max": 299.23,
-    "pressure": 1018,
-    "humidity": 57,
-    "sea_level": 1018,
-    "grnd_level": 1016
-  },
-  "visibility": 10000,
-  "wind": {
-    "speed": 4,
-    "deg": 330
-  },
-  "clouds": {
-    "all": 40
-  },
-  "dt": 1721137423,
-  "sys": {
-    "type": 2,
-    "id": 197864,
-    "country": "RU",
-    "sunrise": 1721091956,
-    "sunset": 1721156622
-  },
-  "timezone": 10800,
-  "id": 498817,
-  "name": "Saint Petersburg",
-  "cod": 200
-}
+Я использовал сторонний API от компании провайдера погоды OpenWeatherMap:
+https://api.openweathermap.org/data/2.5/weather?q=Saint%20Petersburg&appid=my_key
+
 Я распарсил эти данные и отображаю их на карточках о погоде
 ![image](https://github.com/user-attachments/assets/786462d5-2a75-4542-ac83-ed6749162f89)
 
