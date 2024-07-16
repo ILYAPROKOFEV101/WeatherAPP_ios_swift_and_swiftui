@@ -3,6 +3,7 @@
 https://api.openweathermap.org/data/2.5/weather?q=Saint%20Petersburg&appid=my_key
 
 Я распарсил эти данные и отображаю их на карточках о погоде
+
 ![image](https://github.com/user-attachments/assets/786462d5-2a75-4542-ac83-ed6749162f89)
 
 Вот как это выглядит. Также стоит отметить, что я добавил функцию сохранения понравившихся городов в память устройства.
