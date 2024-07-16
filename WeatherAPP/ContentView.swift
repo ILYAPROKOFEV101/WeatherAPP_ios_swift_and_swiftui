@@ -147,7 +147,7 @@ struct ContentView: View {
     // Функция для получения погоды
       func fetchWeather(for city: String) {
           guard let city = city.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
-                let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city)&appid=6422e09c57382316e3993f4e5c5ff152") else {
+                let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city)&appid=") else {
               self.errorMessage = "Invalid city name."
               self.weatherData = nil
               return
